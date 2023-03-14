@@ -1,0 +1,74 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+.filter
+{
+    
+    width: 80%;
+    margin-left:5%;  
+    margin-top:2%;  
+}
+.filter button{
+    border: 2px solid yellow;
+    margin-left: 20px;
+    width:80px;
+    font-size: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.filter button:hover{
+    transform:scale(1.5,1.5);
+    cursor: pointer;
+}
+.section{
+    width:90%;
+    margin:auto;
+    margin-top:2%;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    
+}
+.cards
+{
+    width:250;
+    padding: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+.image_box img{
+    width:200px;
+    height:300px;
+    padding-bottom: 15px;
+}
+.image_box img:hover{
+    transform:scale(0.9,0.9);
+    cursor: pointer;
+
+}
+.details p
+{
+    line-height: 1.5;
+}
+.details p:nth-child(1)
+{
+   font-weight: bold;
+}
+.details p:nth-child(2)
+{
+    word-spacing: 3px;
+    
+}
+.details button{
+    margin-top: 9px;
+    padding:5px 10px;
+    border:none;
+    font-weight:bold;
+    background-color: rgba(0, 0, 0, 0.231);
+}
+.details button:hover{
+    transform: scale(1.1,1.1);
+}
