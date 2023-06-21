@@ -5,7 +5,7 @@ const Navbar=({size,setShow})=>
    return(
     <nav>
         <div className="nav_bar">
-            <span className="shopname" onClick={()=>setShow(true)}>COMIX</span>
+            <span className="shopname" onClick={()=>setShow(true)}>COMIs</span>
             <div className="cart" onClick={()=>setShow(false)}>
                 
                 <span >My cart</span>
